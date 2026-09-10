@@ -47,7 +47,6 @@ files:
   - 'docs'
   - 'bin/s7'
   - 'bin/llvm'
-  - 'src'
   - 'snippets'
 
 # Catalog to be installed

@@ -27,6 +27,7 @@ publicKeys:
 devDependencies:
   '@ax-as/s7-sdk': ^2610.0.2
   "@ax-as/axunit-mocking": ^10.0.136
+  "@simatic-ax/mocks": ^5.0.0
 
   "@simatic-ax/snippetscollection": ^1.1.0
 
@@ -46,5 +47,3 @@ dependencies:
   "@ax-as/system-timer-lib": ^11.0.232
   "@ax-as/s7-clocks-lib": ^12.0.86
   "@simatic-ax/io": ^12.0.0
-  # Must be a regular dependency: stc 12 rejects NAME_OF on types from devDependencies in test builds.
-  "@simatic-ax/mocks": ^5.0.0

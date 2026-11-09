@@ -27,7 +27,7 @@ publicKeys:
 devDependencies:
   '@ax-as/s7-sdk': ^2610.0.2
   "@ax-as/axunit-mocking": ^10.0.136
-  "@simatic-ax/mocks": ^5.0.0
+  # "@simatic-ax/mocks": ^5.0.0
 
   "@simatic-ax/snippetscollection": ^1.1.0
 

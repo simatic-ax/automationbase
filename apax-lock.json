@@ -14,7 +14,6 @@
     "devDependencies": {
       "@ax-as/s7-sdk": "^2610.0.2",
       "@ax-as/axunit-mocking": "^10.0.136",
-      "@simatic-ax/mocks": "^5.0.0",
       "@simatic-ax/snippetscollection": "^1.1.0"
     },
     "catalogs": {
@@ -767,15 +766,6 @@
       "dependencies": {
         "@ax-as/system-math-lib": "^11.0.232",
         "@ax-as/system-timer-lib": "^11.0.232"
-      }
-    },
-    "@simatic-ax/mocks": {
-      "name": "@simatic-ax/mocks",
-      "version": "5.0.0",
-      "integrity": "sha512-649V6oX0fKEf0e8Ar6M4F3kplC5za6Q0q3RgV8hPhBg3VImB3CP18gK4XIBTNmWtMk8QJ2Jsjm54OirecFXIzA==",
-      "resolved": "https://npm.pkg.github.com/download/@simatic-ax/mocks/5.0.0/bafe369e57d0785fd3b37ebdda231cc8d30e1689",
-      "dependencies": {
-        "@ax-as/axunit-mocking": "^10.0.136"
       }
     },
     "@simatic-ax/snippetscollection": {

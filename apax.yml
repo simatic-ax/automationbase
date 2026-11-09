@@ -12,11 +12,6 @@ repository:
   type: git
   url: https://github.com/simatic-ax/automation-base
 
-# Targets which will be compiled with 'apax build'
-targets:
-  - "s7"
-  - "llvm"
-
 # Registry information, to other npm-registries where Apax packages are located
 # '@scope': 'registry-url'
 registries:
@@ -30,29 +25,25 @@ publicKeys:
     "v2": "7af3e394eb2b285a3d99ab8e1f745cc6db75704b30a80393339c721a92ffffd9"
 # Dependencies
 devDependencies:
-  '@ax/sdk': ^2510.18.1
-  "@ax/axunit-mocking": ^9.6.6
-  "@simatic-ax/mocks": ^4.3.3
+  '@ax-as/s7-sdk': ^2610.0.2
+  "@ax-as/axunit-mocking": ^10.0.136
+  # "@simatic-ax/mocks": ^5.0.0
 
   "@simatic-ax/snippetscollection": ^1.1.0
-  # Project variables
-variables:
-  APAX_BUILD_ARGS:
-    - '--debug'
 
 # Files, which will be shipped with the library
 files:
   - 'README.md'
   - 'LICENSE.md'
   - 'docs'
-  - 'bin/s7'
-  - 'bin/llvm'
+  - 'out/Debug/s7'
+  - 'out/Debug/llvm'
   - 'snippets'
 
 # Catalog to be installed
 catalogs:
-  "@ax/simatic-ax": ^2510.18.1
+  "@ax-as/s7-catalog": ^2610.0.2
 dependencies:
-  "@ax/system-timer": ^10.4.66
-  "@ax/simatic-clocks": ^11.0.116
-  "@simatic-ax/io": ^11.0.0
+  "@ax-as/system-timer-lib": ^11.0.232
+  "@ax-as/s7-clocks-lib": ^12.0.86
+  "@simatic-ax/io": ^12.0.0
